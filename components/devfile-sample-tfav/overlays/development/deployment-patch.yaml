@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-tfav
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0013-tenant/cin4s-839-0013-app/devfile-sample-tfav@sha256:2ecbfb53886c5e1b9834a34ed4237c69abac820ee8b06565c2a616c65b4a8901
+        name: my-nodejs
+        resources: {}
+status: {}
