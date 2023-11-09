@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-tfav
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0013-tenant/cin4s-839-0013-app/devfile-sample-tfav@sha256:2ecbfb53886c5e1b9834a34ed4237c69abac820ee8b06565c2a616c65b4a8901
         name: my-nodejs
         ports:
         - containerPort: 3001
